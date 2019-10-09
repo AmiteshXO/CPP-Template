@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-#define ll long long int
 #define mod 1e9+7
 #define FOR(a,c)   for ( int (a)=0; (a)<(c); (a)++)
 #define FORL(a,b,c)  for ( int (a)=(b); (a)<=(c); (a)++)
