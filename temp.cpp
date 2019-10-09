@@ -14,6 +14,7 @@ typedef pair<int,int> pi;
 #define POB pop_back
 #define MP make_pair
 
+// Use inbuilt function  __gcd(a,b) instead
 // ll gcd(ll a, ll b) 
 // { 
 //     if (a == 0) 
