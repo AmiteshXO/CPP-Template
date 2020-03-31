@@ -1,32 +1,31 @@
-#include<bits/stdc++.h>
-using namespace std;
-#define mod 1e9+7
-#define FOR(a,c)   for ( int (a)=0; (a)<(c); (a)++)
-#define FORL(a,b,c)  for ( int (a)=(b); (a)<=(c); (a)++)
-#define FORR(a,b,c)  for (  int (a)=(b); (a)>=(c); (a)--)
-#define INF 1000000000000000003
-typedef long long int ll;
-typedef vector<int> vi;
-typedef pair<int,int> pi;
-#define F first
-#define S second
-#define PB push_back
-#define POB pop_back
-#define MP make_pair
+    #include<bits/stdc++.h>
+    #include<algorithm>
+    using namespace std;
+    #define mod 1e9+7
+    #define FOR(a,c)   for ( int (a)=0; (a)<(c); (a)++)
+    #define FORL(a,b,c)  for ( int (a)=(b); (a)<=(c); (a)++)
+    #define FORR(a,b,c)  for (  int (a)=(b); (a)>=(c); (a)--)
+    #define INF 1000000000000000003
+    typedef long long int ll;
+    typedef vector<int> vi;
+    typedef pair<int,int> pi;
+    typedef priority_queue<int> max_pq;
+    typedef priority_queue<int, vector<int>, greater<int>> min_pq;
+    #define F first
+    #define S second
+    #define PB push_back
+    #define POB pop_back
+    #define MP make_pair
 
-// Use inbuilt function  __gcd(a,b) instead
-// ll gcd(ll a, ll b) 
-// { 
-//     if (a == 0) 
-//         return b; 
-//     return gcd(b % a, a); 
-// } 
+    // Use inbuilt function  __gcd(a,b), __builtin_popcount(n)
 
-int main()
-{
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL); 
-    
-    return 0;
-}
+    int main()
+    {
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
+        cout.tie(NULL);
+        
+        
+        
+        return 0;
+    }
